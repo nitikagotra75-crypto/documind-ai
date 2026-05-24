@@ -1,4 +1,4 @@
-# 🧠 DocuMind AI
+## 🧠 DocuMind AI
 > **AI-powered Technical Documentation Generator for Developers**
 > Turn any codebase into beautiful, production-grade documentation in seconds.
 <p align="center">
@@ -10,7 +10,7 @@
   <img alt="Gemini" src="https://img.shields.io/badge/Gemini_2.5-AI-8E75FF?logo=google&logoColor=white" />
   <img alt="Three.js" src="https://img.shields.io/badge/Three.js-Cosmic_3D-000000?logo=threedotjs&logoColor=white" />
 </p>
----
+
 ## ✨ What is DocuMind AI?
 **DocuMind AI** is a full-stack SaaS web application that automatically generates *complete, professional technical documentation* for any codebase — uploaded files, a GitHub repository, or a pasted snippet.
 Built for developers, hackathon teams, open-source maintainers, and engineering managers who:
@@ -19,11 +19,11 @@ Built for developers, hackathon teams, open-source maintainers, and engineering 
 - Want a quick **project health score** + improvement checklist
 - Want **interview-ready questions** generated straight from the code
 DocuMind reads your project, understands it, and produces **9 polished documentation artifacts** in one click.
----
+
 ## 🚀 Live Demo
 🔗 **[Launch DocuMind AI](https://id-preview--c8692846-6ed6-4a93-8bb6-1f97bd89f7af.lovable.app)**
 > Sign up with email or Google in one click — no waitlist, no approval needed.
----
+> 
 ## 🪄 Features
 ### 🤖 AI Doc Engine (Gemini 2.5 Flash)
 For every project, DocuMind generates:
@@ -52,7 +52,7 @@ A signature, premium UI inspired by Linear, Vercel & Notion AI:
 - Google OAuth one-click sign-in
 - Every generated doc is saved to your private dashboard (RLS-protected)
 - Markdown viewer with syntax highlighting, copy-to-clipboard, and download
----
+
 ## 🧰 Tech Stack
 | Layer | Technology |
 |---|---|
@@ -65,7 +65,7 @@ A signature, premium UI inspired by Linear, Vercel & Notion AI:
 | **Markdown** | react-markdown, remark-gfm, react-syntax-highlighter |
 | **Validation** | Zod |
 | **Deployment** | Lovable Cloud (Cloudflare Workers edge) |
----
+
 ## 🏗️ Architecture
 ```
 ┌──────────────────────────────────────────────────────────────┐
@@ -87,7 +87,7 @@ A signature, premium UI inspired by Linear, Vercel & Notion AI:
         │   (JSON-mode response) │
         └────────────────────────┘
 ```
----
+
 ## 📂 Project Structure
 ```
 src/
@@ -114,7 +114,7 @@ src/
 supabase/
 └── migrations/                  # profiles + documents tables
 ```
----
+
 ## 🛠️ Local Development
 ### 1. Clone
 ```bash
